@@ -1,0 +1,6 @@
+-- Write your query below
+SELECT customer_number
+from orders
+group by customer_number
+order by count(*) desc
+LIMIT 1;
